@@ -28,7 +28,7 @@ function Navbar(){
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn animate-pulse text-sm">Book Now<img width="30" height="30" src="https://img.icons8.com/3d-fluency/50/camera.png" alt="camera"/></a>
+    <a href="#book" className="btn animate-pulse text-sm">Book Now<img width="30" height="30" src="https://img.icons8.com/3d-fluency/50/camera.png" alt="camera"/></a>
   </div>
 </div>
     )
