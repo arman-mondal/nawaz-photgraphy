@@ -25,7 +25,7 @@ function Home2(){
  <h1 className="text-5xl font-bold text-white text-center">Gallery</h1>
 </div>
 
-<div id="gallery" class="relative w-full" data-carousel="slide">
+<div id="gallery" class="relative w-full mt-10" data-carousel="slide">
      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
         
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
