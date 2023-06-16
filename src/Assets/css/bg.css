@@ -10,11 +10,13 @@ animation: bluuur 1 1s    ;
         filter: blur(10px);
     }
 }
+.html{
+    background-color: black;
+}
 .bgggg{
     background-image: url("https://cosmos.network/_nuxt/img/3179773.png");
     background-repeat: no-repeat;
 background-size: cover;
-position: center;
 }
 .aniii{
     animation: zooom 1 3s ;
@@ -36,3 +38,13 @@ position: center;
 }
 
 
+.bgggg:hover{
+    .mmmm{
+        animation: zooom 1 3s ;
+    }
+}
+.blll{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

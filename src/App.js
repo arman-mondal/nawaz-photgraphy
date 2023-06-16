@@ -4,7 +4,7 @@ import Home from './Pages/Home';
 import Error from './Pages/Error';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 
-
+import "./Assets/css/bg.css"
 
 function App() {
   return (
