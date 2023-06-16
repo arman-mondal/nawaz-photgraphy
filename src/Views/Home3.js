@@ -6,7 +6,7 @@ import React from "react";
 function Home3(){
     return (
 <div className="h-screen bg-black pt-5 blll" id="about" >
-<section class="text-gray-400 bg-gray-900 body-font relative">
+<section class="text-gray-400 bg-black body-font relative">
   <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
       <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.8935385737927!2d88.34089469999999!3d25.3077807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fb3d4beb0e3eb5%3A0x57e4fc2c36db6118!2sNAWAZ%20PHOTOGRAPHY!5e0!3m2!1sen!2sin!4v1686937000662!5m2!1sen!2sin"></iframe>
