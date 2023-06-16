@@ -40,8 +40,8 @@ function Header(){
                 
             </Player>
         </div>
-        <h1 className="text-5xl font-bold drop-shadow-xl w-full aniii">Nawaz Photography</h1>
-        <p className="py-6 drop-shadow-lg aniii">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+        <h1 className="text-5xl font-bold drop-shadow-xl text-white w-full aniii">Nawaz Photography</h1>
+        <p className="py-6 drop-shadow-lg text-white aniii">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
         <button class="beautiful-button aniii">
   Book Now
 </button>
