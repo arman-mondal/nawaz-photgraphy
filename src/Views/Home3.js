@@ -1,9 +1,43 @@
-import React from "react";
+import React,{useState} from "react";
 import Footer from "../Components/Footer"
 
 
 
 function Home3(){
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    dateTime:'',
+    address: ''
+  });
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+  const send = (e) => {
+    e.preventDefault();
+    // Call your API post method here with the formData
+    fetch('/api/data', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Handle the response from the API
+        console.log(data);
+      })
+      .catch(error => {
+        // Handle any errors
+        console.error(error);
+      });
+  };
+
+
+
+
+
     return (
 <div className="h-screen bg-black pt-5 blll " id="about" >
 <section class="text-gray-400 bg-black body-font relative">
@@ -23,6 +57,7 @@ function Home3(){
         </div>
       </div>
     </div>
+
     <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
       <h2 class="text-white text-lg mb-1 font-medium title-font">Contact</h2>
       <p class="leading-relaxed mb-5">Send us a message for booking query, We only provide services on Tapan,Gangarampur etc.</p>
@@ -45,11 +80,12 @@ function Home3(){
 
       </div>
      
-      <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+      <button onSubmit={send} class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
       <p class="text-xs text-gray-400 text-opacity-90 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
     </div>
+    
   </div>
-  
+
 <Footer/>
 </section>
 
