@@ -1,11 +1,11 @@
 import React from "react";
-
+import Footer from "../Components/Footer"
 
 
 
 function Home3(){
     return (
-<div className="h-screen bg-black pt-5 blll" id="about" >
+<div className="h-screen bg-black pt-5 blll " id="about" >
 <section class="text-gray-400 bg-black body-font relative">
   <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -49,7 +49,13 @@ function Home3(){
       <p class="text-xs text-gray-400 text-opacity-90 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
     </div>
   </div>
+  
+<Footer/>
 </section>
+
+
+
+
 </div>
 
     )
